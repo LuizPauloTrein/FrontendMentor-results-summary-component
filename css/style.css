@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--paleBlue);
+    font-family: "Hanken Grotesk", sans-serif;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    max-width: 550px;
+}
+
+.result {
+    background-image: linear-gradient(var(--lightSlateBlueBackground),
+                                      var(--lightRoyalBlueBackground));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 15px;
+    border-radius: 25px;
+    flex: 1;
+}
+
+.result h2 {
+    color: var(--lightLavender);
+    font-size: 1.1rem;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(var(--violetBlueCircle),
+                                var(--persianBlueCircle));
+    height: 140px;
+    width: 140px;
+}
+
+.score {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.of {
+    color: var(--lightLavender);
+    font-size: 12px;
+}
+
+.result h3 {
+    color: var(--white);
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.feedback {
+    text-align: center;
+    color: var(--lightLavender);
+    font-size: 1rem;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 0 25px 25px 0;
+    flex: 1;
+}
+
+.summary h2 {
+    font-size: 1.2rem;
+}
+
+.classes-grades {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.grade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.5rem;
+    padding: 0 12px;
+    border-radius: 10px;
+}
+
+.grade-info {
+    display: flex;
+    gap: 10px;
+}
+
+.reaction-class{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory-class{
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal-class{
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual-class{
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.reaction {
+    color: var(--lightRed);
+}
+
+.memory {
+    color: var(--orangeyYellow);
+}
+
+.verbal {
+    color: var(--greenTeal);
+}
+
+.visual {
+    color: var(--cobaltBlue);
+}
+
+.total-grade {
+    color: var(--lightLavender);
+    font-weight: 700;
+}
+
+.total-grade span {
+    color: var(--darkGrayBlue);
+}
+
+.btn-continue {
+    border-radius: 20px;
+    height: 40px;
+    color: var(--white);
+    border: none;
+    background-color: var(--darkGrayBlue);
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn-continue:hover {
+    color: var(--white);
+    background: linear-gradient(var(--lightSlateBlueBackground),
+                                var(--lightRoyalBlueBackground));
+}
