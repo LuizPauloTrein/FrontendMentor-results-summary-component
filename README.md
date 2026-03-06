@@ -1,0 +1,1 @@
+# FrontendMentor-results-summary-component
