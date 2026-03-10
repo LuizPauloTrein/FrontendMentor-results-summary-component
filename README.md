@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📊 Results Summary Component
 
 Projeto desenvolvido como parte de um desafio do Frontend Mentor.
@@ -58,8 +57,3 @@ Desenvolvido por Luiz Paulo Trein
 ## 📚 Desafio original
 
 Desafio retirado do site Frontend Mentor.
-=======
-# FrontendMentor-results-summary-component
-
-https://luizpaulotrein.github.io/FrontendMentor-results-summary-component/
->>>>>>> 42b5193f472bfc9cdcdc8e65379c890da706bff7
